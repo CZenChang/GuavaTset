@@ -1,11 +1,11 @@
+package stringStudy;
+
 import com.google.common.base.Joiner;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
 
-public class GString {
+public class JoinOfString {
 
 
     /**
@@ -90,11 +90,11 @@ public class GString {
 
     public static void main(String[] args) {
 
-        GString gs=new GString();
+        JoinOfString js=new JoinOfString();
 
-        gs.joiner_On();
+        js.joiner_On();
 
-        gs.join_overloadTest();
+        js.join_overloadTest();
 
     }
 }
